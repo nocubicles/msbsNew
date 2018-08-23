@@ -2335,7 +2335,7 @@
 			.box .image.featured img {
 				border-radius: 0;
 				display: block;
-				width: 100%;
+				width: 60%;
 			}
 
 			.box .image.featured:first-child {
@@ -3043,7 +3043,7 @@
 			-webkit-animation: none;
 			-ms-animation: none;
 			animation: none;
-			background: none;
+			background: #444;
 			color: rgba(255, 255, 255, 0.75);
 			position: absolute;
 		}
@@ -3871,3 +3871,8 @@
 			}
 
 	}
+
+
+#contactUs {
+	padding-top: 5em;
+}
