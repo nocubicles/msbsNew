@@ -1,32 +1,43 @@
+<section class="container medium pagePadding">
+    <header>
+        <h2>Meie kontaktid</h2>
 
-    <section class="container medium pagePadding">
-        <header>
-            <h2>Contact Us</h2>
-            <p>Tell us what you think about our little operation.</p>
-        </header>
-        <div class="box">
-            <form method="post" action="#">
-                <div class="row gtr-50 gtr-uniform">
-                    <div class="col-6 col-12-mobilep">
-                        <input type="text" name="name" id="name" value="" placeholder="Name" />
-                    </div>
-                    <div class="col-6 col-12-mobilep">
-                        <input type="email" name="email" id="email" value="" placeholder="Email" />
-                    </div>
-                    <div class="col-12">
-                        <input type="text" name="subject" id="subject" value="" placeholder="Subject" />
-                    </div>
-                    <div class="col-12">
-                        <textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-                    </div>
-                    <div class="col-12">
-                        <ul class="actions special">
-                            <li>
-                                <input type="submit" value="Send Message" />
-                            </li>
-                        </ul>
-                    </div>
+        <div class="box alt">
+            <div class="row gtr-50 gtr-uniform">
+                <div class="col-6 col-12-narrower">
+
+                    <p>MS Ärisüsteemid OÜ</p>
+                    <p>Lõõtsa 2, Ülemiste City</p>
+                    <p>Tallinn 11415</p>
+                    <p>T +372 6150 085</p>
                 </div>
-            </form>
+                <div class="col-6 col-12-narrower">
+                    <p>M +372 528 1993</p>
+                    <p>E info@msbs.ee</p>
+                    <p>KMKR EE100528725</p>
+                    <p>Regnr 10538261</p>
+
+                </div>
+
+            </div>
         </div>
-    </section>
+    </header>
+    <div class="box">
+       <form action="https://formspree.io/info@msbs.ee"
+      method="POST">
+        <div class="row gtr-50 gtr-uniform">
+            <div class="col-8 col-12-mobilep">
+                <textarea name="name" placeholder="Teie küsimus" ></textarea>
+            </div>
+             <div class="col-8 col-12-mobilep">
+                <input type="email" name="_replyto" id="email" placeholder="E-mail" />
+                <input type="hidden" name="_cc" value="villem@msbs.ee" />
+            </div>
+            <div class="col-4 col-12-mobilep">
+                <input type="submit" value="Saada" class="fit" />
+            </div>
+        </div>
+    </form>
+
+    </div>
+</section>
